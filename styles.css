@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 16px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Audiowide', 'cursive';
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 10px 0 5px;
+}
+
+h2, h2 a {
+    font-family: 'Audiowide', 'cursive';
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+figure {
+    position: relative;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 4px;
+    padding: 0.25rem;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+p {
+    padding: 10px 5px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    table-layout: fixed;
+}
+
+td {
+    width: 50%;
+}
+
+tr td:nth-child(1) {
+    text-align: right;
+    font-family: 'Audiowide', 'cursive';
+    padding-right: 50px;
+}
+
+.hr-group {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hr-gold {
+    border-top: 5px solid rgb(253,205,6);
+}
+
+.hr-red {
+    border-top: 5px solid rgb(191,15,15);
+}
+
+.hr-blue {
+    border-top: 5px solid rgb(17,112,159);
+}
